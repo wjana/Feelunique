@@ -1,0 +1,179 @@
+footer a,footer{
+	color: #ccc;
+	font-size: 13px;
+}
+#footerTop{
+	padding: 20px 0 30px 0;
+	background-color: #444444;
+	
+}
+#footerTop .content,#footerBottom .content{
+	margin: 0 auto;
+	/*background: orange;*/
+	overflow: hidden;
+}
+#footerTop ul{
+	width: 180px;
+	float: left;
+	margin-right: 55px;
+}
+#footerTop ul .ftc{
+	border-bottom: 1px solid #676767;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	line-height: 1.25;
+}
+#footerTop ul li a{
+	line-height: 2;
+}
+#footerTop ul li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+#footerTop #fTDepts{
+	width: 470px;
+	float: left;
+}
+#footerTop #fTDepts p{
+	border-bottom: 1px solid #676767;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	line-height: 1.25;
+}
+#footerTop #fTDepts .fTDeLast{
+	float: right;
+}
+#footerCenter{
+	padding-bottom: 20px;
+	background-color: #444444;
+	height: 60px;
+}
+#footerCenter #fcLeft{
+	float: left;
+	margin-top: 28px;
+}
+#footerCenter #fcLeft span{
+	float: left;	
+}
+#footerCenter #fcLeft .fclText{
+	margin-top: 7px;
+	float: left;
+}
+#footerCenter #fcLeft #xin-bo{
+	margin-left: 5px;
+	float: right;
+}
+#footerCenter #fcLeft #xin-bo span{
+	width: 30px;
+	height: 30px;
+	/*background: red;*/	
+	display: inline-block;
+}
+#fcLeft .fWeixin{
+	background-image: url(../img/footer/weixin-Weibol.png);
+	background-position: 0 0;
+	margin-right: 10px;
+	position: relative;
+}
+#fcLeft .fWeixin:hover{
+	background-image: url(../img/footer/weixin-Weibol.png);
+	background-position: 70px 0;
+}
+#fcLeft .fWeixin .fwxQR{
+	width: 100px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	z-index: 45;
+}
+#fcLeft .fWeixin:hover .fwxQR{
+	display: block;
+}
+#fcLeft .fWeiBo{
+	background-image: url(../img/footer/weixin-Weibol.png);
+	background-position: 109px 0;
+}
+#fcLeft .fWeiBo:hover{
+	background-image: url(../img/footer/weixin-Weibol.png);
+	background-position: 30px 0;
+}
+#footerCenter #fcRight{
+	width: 360px;
+	height: 40px;
+	float: right;
+	margin: 20px 0 0;
+	overflow: hidden;
+}
+#footerCenter #fcRight #payCard{
+	width: 84px;
+	height: 40px;
+	float: left;
+	background-image: url(../img/common-sprite-9.png);
+	background-position: 0 -903px;
+	margin-right: 10px;
+}
+#footerCenter #fcRight #payMethod{
+	background: url(../img/footer/payMethod.png) no-repeat;
+	width: 264px;
+	height: 26px;
+	float: right;
+	margin-top: 10px;
+}
+#footerBottom{
+	background-color: #2d2d2d;
+	border-top: 1px solid black;
+	position: relative;
+}
+#footerBottom #fbTop{
+	float: left;
+	font-size: 11px;
+	height: 60px;
+	line-height: 60px;
+}
+#footerBottom #fbTop li{
+	float: left;
+	margin: 0 20px;
+}
+#footerBottom #fbTop li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+#footerBottom #fbTop i{
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	background-size: 16px;
+	margin: 0 5px;
+	background-image: url(../img/footer/countryFlags.png);
+}
+#footerBottom #fbTop #fbtFlag1{
+	margin-left: 80px;
+	background-position: 0 -75px;
+}
+#footerBottom #fbTop #fbtFlag2{
+	background-position: 0 -63px;
+}
+#footerBottom #fbTop #fbtFlag3{
+	background-position: 0 -25px;
+}
+#footerBottom #fbTop #fbtFlag4{
+	background-position: 0 -125px;
+}
+#footerBottom #fbTop #fbtFlag5{
+	background-position: 0 -50px;
+}
+#footerBottom #fbTop #fbtFlag6{
+	background-position: 0 -175px;
+}
+#footerBottom #fbTop #fbtFlag7{
+	background-position: 0 -163px;
+}
+#footerBottom #fbBottom{
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	border-top: 1px solid #676767;
+	padding-bottom: 5px;
+}

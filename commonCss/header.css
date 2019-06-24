@@ -1,0 +1,474 @@
+#headerStrip{
+	background-color: #f9d0db;
+}
+#headerStrip .cc{
+	font-size: 16px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+#headerStrip span{
+	float: left;
+}
+#headerStrip #s1{
+	width: 92%;
+}
+#headerStrip #s2{
+	width: 8%;
+}
+#headerStrip .fold{
+	/*background-color: #FEF6F8;*/
+	/*display: none;*/
+	/*transition: height 1s ease-in 0s;*/ 
+	height: 0px;
+	background: url(../img/header/fold.png);
+	border-bottom: 1px #F2F2F2 solid;
+}
+#header{
+	height: 140px;
+	/*background: cornflowerblue;*/
+}
+#header #headerTop{
+	border-bottom: 1px solid #f2f2f2;
+}
+#toolBar{
+	height: 36px;
+	line-height: 36px;	
+}
+#toolBar .user{
+	position: relative;
+	float: left;
+}
+#userMenu{
+	position: absolute;
+	top: 36px;
+	left: 0;
+	display: none;
+	z-index: 2;
+	border: solid 1px black;
+	border-top: solid 1px #f2f2f2;
+	background-color: white;
+}
+#userMenu .oli{
+	width: 120px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+	border: 1px solid #f2f2f2;
+}
+#toolBar a{
+	font-size: 12px;
+}
+#toolBar .user:hover #userMenu{
+	display: block;
+}
+#toolBar .user .i{
+	float: left;
+	margin:auto 5px;
+}
+#toolBar .user .i1{
+	width: 26px;
+	height: 26px;
+	/*border: 1px solid black;*/
+	background-image: url(../img/header/uesr_weixin.png);
+	background-repeat: no-repeat;
+	background-position: 0 -27px;
+	margin: 5px 2px;
+}
+#toolBar .user .i4,#toolBar #otherInfo .i4{
+	width: 11px;
+	height: 6px;
+	background-image: url(../img/header/uesr_weixin.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin: 15px 5px;
+	float: right;
+}
+#toolBar #otherInfo{
+	float: right;
+}
+#toolBar #otherInfo .oi{
+	float: left;
+	margin: 0 5px;
+	line-height: 35px;
+	padding: 0 10px;
+}
+#otherInfo img{
+	margin: 0 1px;
+}
+#otherInfo .oi:nth-child(1) a{
+	text-decoration: underline;
+}
+#otherInfo .oi:nth-child(3),
+#otherInfo .oi:nth-child(4),
+#otherInfo .oi:nth-child(5){
+	border-left:1px solid #f2f2f2;
+	padding-left: 5px;
+	/*float: right;*/
+}
+#otherInfo .a1{
+	position: relative;
+}
+#otherInfo .a1:hover #hlvDown{
+	display: block;
+}
+#otherInfo #hlvDown{
+	width: 130px;
+	border: 1px solid #f2f2f2;
+	padding-top: 5px;
+	text-align: center;
+	position: absolute;
+	left: -28px;
+	z-index: 20;
+	background-color: white;
+	display: none;
+}
+#otherInfo #hlvDown li:nth-child(1){
+	border-bottom:1px solid #f2f2f2 ;
+}
+#headerBottom{
+	height: 100px;
+	line-height: 100px;
+	/*background-color: cadetblue;*/
+	/*overflow: hidden;*/
+}
+#headerBottom a{
+	float: left;
+	/*margin: ;*/
+}
+#headerBottom a img{
+	width: 316px;
+	height: 29px;
+}
+#headerBottom #searchBox{
+	float: right;
+	background: red;
+	height: 34px;
+	margin: 30px 10px;
+	position: relative;
+	
+}
+#headerBottom #searchBox #oIn{
+	width: 390px;
+    height: 30px;
+    border: 2px solid #F2F2F2;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    color: dimgray;
+    padding-left: 35px;
+    
+}
+#headerBottom #searchBox #oIn:focus{
+	outline: none;
+	border: 2px solid black;
+}
+#headerBottom #searchBox #labS{
+	width: 18px;
+	height: 18px;
+	float: left;
+	background: url(../img/header/search.png);
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	z-index: 3;
+}
+#headerBottom #searchBox #sOK{
+	background-color: black;
+	width: 60px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	border: none;
+	color: white;
+	float: right;
+	transition: all .5s ease 0s;
+}
+#headerBottom #searchBox #sOK:hover{
+	background-color: #1abc9c;
+}
+#headerNav{
+	position: relative;
+	font-weight: 400;
+	/*overflow: hidden;*/
+}
+#headerNav #navWhite{
+	border-top: solid 1px #F2F2F2;
+}
+#headerNav #oUl1,#headerNav #oUl2{
+	height: 39px;
+	float: left;
+}
+#headerNav .o1 a{
+	color: red;
+}
+#headerNav #oUl1 .oil{
+	float: left;
+	font-size: 16px;
+	padding: 11px 15px;
+}
+
+#headerNav #oUl1 .oil img{
+	margin: 0 5px;
+}
+#headerNav #oUl1 .oil:nth-child(1){
+	background-color: #F2F2F2;
+}
+#headerNav #oUl1 .oil:nth-child(3){
+	position: relative;
+}
+#headerNav #oUl1 .oi2:hover{
+	background-color: #F2F2F2;
+}
+#navWhite .o1:hover{
+	background-color: #D72245;	
+}
+#navWhite .o1:hover a{
+	color: white;
+}
+#navWhite .o1:hover #navRed{
+	display: block;
+}
+#headerNav #navRed{
+	width: 1350px;
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: -349px;
+	z-index: 25;
+	height: 39px;
+	background: #D72245;
+	height: 38px;
+	float: left;
+}
+#navRed .fhk a{
+	color: white;
+}
+#navRed .fhk{
+	float: left;
+	line-height: 39px;
+	padding: 0 20px;
+}
+#navRed .fhk:hover{
+	background-color: lightsteelblue;
+}
+#navRed .fhk:nth-child(1){
+	margin-left: 80px;
+}
+#headerNav #oUl2{
+	width: 100%;
+	/*position: relative;*/
+	background-color: #f2f2f2;
+}
+#headerNav #oUl2 .oil{
+	float: left;
+	font-size: 16px;
+	padding: 9px 20px;
+}
+#headerNav #oUl2 .oil:hover{
+	background-color: lightsteelblue;
+}
+#headerNav #oUl2 .oil:nth-child(1){
+	margin-left: 90px;
+	position: relative;
+}
+
+#oUl3:hover #navMenu{
+	display: block;
+}
+#headerNav #navMenu{
+	width: 1349px;
+	display: none;
+	border-bottom: 1px solid #ddd;
+	position: absolute;
+	top: 39px;
+	left: -90px;
+	z-index: 20;
+	height: 445px;
+	background: white;
+	/*border: 1px solid black;*/
+}
+#headerNav .navMncontent{
+	width: 1150px;
+	margin: 0 auto;
+	max-height: 410px;
+	padding: 14px 20px 0;
+	overflow: hidden;
+}
+#headerNav .navMncontent li{
+	width: 214px;
+	margin: 5px 70px 0 0;
+	padding: 10px 0;
+	float: left;
+	font-size: 13px;
+}
+#headerNav .navMncontent .head{
+	height: 18px;
+	font-size: 15px;
+	font-weight: 400;
+	border-bottom: 1px dotted black;
+	margin-bottom: 8px;
+	padding-bottom: 3px;
+	overflow: hidden;
+}
+#headerNav .navMncontent .headRight{
+	float: right;
+}
+#headerNav .navMncontent .gnType{
+	min-height: 40px;
+	overflow: hidden;
+}
+.navMncontent .gnType span{
+	width: 100%;
+	float: left;
+	display: block;
+	height: 18px;
+	margin-bottom: 8px;
+	display: block;
+}
+.navMncontent .gnType span a{
+	color: #777;
+}
+.navMncontent .gnType span a:hover{
+	color: black;
+}
+#headerNav .navMncontent .trending{
+	border: 1px dotted darkorange;
+	width: 196px;
+	max-height: 380px;
+	margin: 0 6px 0 6px;
+	padding: 10px 13px;
+	overflow: hidden;
+}
+#headerNav .navMncontent .brokenLine{
+	width: 30px;
+	height: 18px;
+	background-image: url(../img/common-sprite-9.png);
+	background-position: 0 -63px;
+	float: right;
+}
+#headerNav .navMncontent .inspire{
+	width: 214px;
+	height: 410px;
+	margin-left: 60px;
+}
+.navMncontent .inspire span{
+	float: left;
+}
+.navMncontent .inspire .inspireImg img{
+	width: 212px;
+	height: 123px;
+}
+.navMncontent .inspire .inspireImg a{
+	line-height: 19px;
+	height: ;
+}
+.navMncontent .inspire .menu3Label{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 13px;
+	padding-bottom: 10px;
+}
+.inspire .menu3Label p:nth-child(2){
+	font-size: 12px;
+	height: 30px;
+}
+#headerStrBot{
+	/*height: 60px;*/
+	/*margin: 10px auto 10px;*/
+	position: relative;
+	overflow: hidden;
+}
+#headerStrBot .hsb{
+	padding-left: 20px;
+	width: 275px;
+	float: left;
+	margin: 12px 0;
+}
+#headerStrBot .hsb1{
+	width: 39px;
+	float: left;
+	
+}
+#headerStrBot .h{
+	padding-right:10px ;
+	float: right;
+	width: 218px;
+}
+#headerStrBot .h .s1{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 17px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+#headerStrBot .h .s2{
+	font-size: 11px;
+	line-height: 17px;
+	overflow: hidden;
+}
+
+#ceilingHead{
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	position: fixed;
+	top: -60px;
+	transition: top .5s linear 0s;
+	opacity: .8;
+}
+#ceilingHead .centerd{
+	margin: 0 auto;
+}
+#ceilingHead a{
+	float: left;
+}
+#ceilingHead a img{
+	width: 316px;
+	height: 29px;
+}
+#ceilingHead #searchBox{
+	float: right;
+	background: red;
+	height: 34px;
+	margin: 7px 10px;
+	position: relative;
+	
+}
+#ceilingHead #searchBox #oIn{
+	width: 390px;
+    height: 30px;
+    border: 2px solid #F2F2F2;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    color: dimgray;
+    padding-left: 35px;
+    
+}
+#ceilingHead #searchBox #oIn:focus{
+	outline: none;
+	border: 2px solid black;
+}
+#ceilingHead #searchBox #labS{
+	width: 18px;
+	height: 18px;
+	float: left;
+	background: url(../img/header/search.png);
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	z-index: 3;
+}
+#ceilingHead #searchBox #sOK{
+	background-color: black;
+	width: 60px;
+	height: 34px;
+	line-height: 38px;
+	border: none;
+	color: white;
+	float: right;
+	transition: all .5s ease 0s;
+}
+#ceilingHead #searchBox #sOK:hover{
+	background-color: #1abc9c;
+}

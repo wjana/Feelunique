@@ -1,0 +1,607 @@
+#box {
+	width: 100%;
+	height: 500px;
+	/*background: orange;*/
+	margin: 0 auto;
+	/*border: 1px solid green;*/
+	position: relative;
+	overflow: hidden;
+}
+
+#picbox {
+	width: 100%;
+	height: 500px;
+	/*background: palegreen;*/
+	position: relative;
+	overflow: hidden;
+}
+
+.bigPic {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -960px;
+	transition: 0.5s;
+}
+
+#btnBox {
+	/*width: 1150px;*/
+	height: 5px;
+	/*background: pink;*/
+	margin-top: 6px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 470px;
+}
+
+.picBtn {
+	width: 60px;
+	height: 5px;
+	/*float: left;*/
+	background: #C7C7C7;
+	margin: 0 8px;
+	/*opacity: 0.5;*/
+}
+.picBtn:nth-child(1){
+	background: black;
+	margin-left: 400px;
+}
+#before,
+#next {
+	width: 36px;
+	height: 68px;
+	line-height: 68px;
+	background: black;
+	opacity: 0.4;
+	position: absolute;
+	z-index: 9;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+#before:hover,
+#next:hover{
+	opacity: 1;
+}
+#before {
+	top: 50%;
+	left: 0;
+}
+
+#next {
+	top: 50%;
+	right: 0;
+}
+
+#logoDisplay{
+	height: 56px;
+	margin: 14px auto;
+	overflow: hidden;
+	position: relative;
+}
+#logoDisplay li{
+	float: left;
+	font-size: 16px;
+	line-height: 56px;
+	text-align: center;
+}
+
+#logoDisplay .i{
+	margin: 0 25px ;
+}
+#logoDisplay button{
+	display: block;	
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 20px;
+	z-index: 10;
+	border: none;
+	outline: none;
+}
+#logoDisplay .logoBefore{
+	left: 40px;
+	background: url(../img/index/zuo.png) white;
+	background-size: 12px 12px;
+}
+#logoDisplay .logoNext{
+	right: 40px;
+	background: url(../img/index/you.png) white;
+	background-size: 12px 12px;
+}
+#logoDisplay #logoViewBox{
+	width: 1085px;
+	height: 56px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#logoDisplay #logoViewBox #logoUl{
+	width: 2170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left 1s ease 0s;
+}
+#logoDisplay li img{
+	width: 105px;
+	height: 56px;
+}
+#special{
+	background-color: #F2F2F2;
+	overflow: hidden;
+	height: 1270px;
+}
+#SpecArea{
+	height: 411px;
+	/*background: plum;*/
+	margin: 20px auto;
+}
+#SpecArea #area{
+	margin-left: 5px;
+	padding: 25px 0 16px 0;
+	/*background: greenyellow;*/
+	overflow: hidden;
+}
+#SpecArea .list{
+	width: 270px;
+	float: left;
+	margin-left: 20px;
+	background: white;
+	overflow: hidden;
+}
+#SpecArea .list .listImg{
+	transition: all .5s ease 0s;
+}
+#SpecArea .list .listImg:hover{
+	transform: scale(1.1);
+	
+}
+#SpecArea .list a{
+	width: 100%;
+	height: 235px;
+	overflow: hidden;
+}
+#SpecArea .list span{
+	display: block;
+	
+}
+#SpecArea .list .list01{
+	font-size: 16px;
+	margin-top: 25px;
+	line-height: 1.5;
+	text-align: center;
+}
+#SpecArea .list .list02{
+	font-size: 18px;
+	font-weight: bold;
+	color: #d72245;
+	line-height: 1.5;
+	text-align: center;
+}
+#SpecArea .list button{
+	width: 90px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 15px 90px;
+	transition: all .5s ease 0s;
+	border: none;
+}
+#SpecArea .list button:hover{
+	background-color: #1abc9c;
+}
+#recommend{
+	height: 770px;
+	margin: 0 auto;
+	position: relative;
+	/*background: yellow;*/
+}
+#recommend .rePart{
+	background-color: #F2F2F2;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	/*overflow: hidden;*/
+}
+#recommend .rePart .rp{
+	float: left;
+}
+
+#recommend .rePart .rp a{
+	background-color: #ddd;
+	margin-right: 5px;
+	padding: 6px 10px;
+	letter-spacing: 1px;
+	transition: all 1s ease 0s;
+	font-size: 14px;
+}
+#recommend .rePart .rp1 a{
+	background-color: white;
+}
+#recommend .rePart .rp a:hover{
+	background-color: white;
+}
+#recommend #reGoods{
+	height: 740px;
+	background: #F2F2F2;
+	margin-top: 0;
+	position: absolute;
+	top: 30px;
+	background: white;
+}
+#recommend #reGoods #viewPort{
+	height: 740px;
+	margin: 0 0 10px;
+	background: white;
+	position: relative;
+	overflow: hidden;
+}
+#recommend #viewPort #displayBar{
+	width: 3570px;
+	height: 690px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px 0;
+	transition: left .5s ease 0s;
+}
+#reGoods #displayBar .product{
+	float: left;
+	width: 194px;
+	height: 305px;
+	margin: 0 0 20px 20px;
+	padding-bottom: 10px;
+	background: white;
+	border: 10px solid white;
+	position: relative;
+	transition: all .3s linear 0s;
+}
+#reGoods #displayBar .product:hover{
+	border: 10px solid #ddd;
+}
+#reGoods #displayBar .product .thumb{
+	border-bottom: 1px solid #DDDDDD;
+	width: 200px;
+	height: 180px;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+#reGoods .product .thumb img{
+	height: 180px;
+	width: 180px;
+	vertical-align: middle;
+}
+#reGoods .product h2{
+	margin: 10px;
+	float: left;
+	/*display: block;*/
+} 
+#reGoods .product h2 a{
+	font-size: 12px;
+	font-weight: 400;
+	color: #777777;
+	width: 180px;
+	height: 31px;
+	display: -webkit-box;
+}
+#reGoods .product h2 a:hover{
+	color: black;
+	text-decoration: underline;
+}
+#reGoods .product h2 img{
+	opacity: 0;
+	width: 54px;
+	margin-top: 8px;
+}
+#reGoods #displayBar .product:hover h2 img{
+	opacity: 1;
+}
+#reGoods .product span{
+	display: inline-block;
+}
+#reGoods .product .originalPrice{
+	float: right;
+	text-decoration: line-through;
+	margin-right: 10px;
+}
+#reGoods .product .salePrice{
+	font-size: 12px;
+	font-weight: 600;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: #D72245;
+}
+#reGoods .product .salePrice .currsign{
+	line-height: 12px;
+	vertical-align: center;
+}
+#reGoods .product .salePrice .integers{
+	font-size: 20px;
+}
+#reGoods .product .lessDiscount{
+	line-height: 1.3;
+	padding: 0 8px;
+	letter-spacing: 1px;
+	border: 1px dashed #d72245;
+	color: #d72245;
+	position: absolute;
+	top: 163px;
+	right: 10px;
+	background-color: white;
+}
+#reGoods .product button{
+	height: 34px;
+	line-height: 34px;
+	padding: 0 10px;
+	display: none;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	transition: all 1s ease 0s;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+}
+#reGoods #displayBar .product:hover button{
+	display: block;
+}
+#reGoods .product button:hover{
+	background-color: #1abc9c;
+}
+#reGoods #viewLeft,#reGoods #viewRight{
+	display: block;
+	z-index: 10;
+	top: 350px;
+}
+#viewLeft img,#viewRight img{
+	width: 20px;
+	height: 20px;
+}
+#reGoods #viewLeft{
+	position: absolute;
+	left: 0;
+	display: none;
+}
+#reGoods #viewRight{
+	position: absolute;
+	right: 0;
+}
+#today{
+	background-color: #F2F2F2;
+}
+#today #tdB{
+	width: 480px;
+	margin: 0 auto;
+	border: 1px solid #666666;
+	overflow: hidden;
+}
+#today #tdB li{
+	width: 240px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 22px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	color: #333333;
+	background: #f7f7f7;
+}
+#today #tdB li:first-child{
+	background: #666666;
+	color: #E6E6E6;
+}
+#today #tdBuy{
+	width: 1220px;
+	margin: 0 auto;
+	padding: 20px 0;
+	overflow: hidden;
+}
+#today #tdBuy a{
+	width: 580px;
+	height: 278px;
+	display: inline-block;
+	margin: 0 0 20px 20px;
+	/*background: yellow;*/
+	overflow: hidden;
+	position: relative;
+	border-top: 2px solid black;
+}
+#today #tdBuy a:hover img{
+	opacity: .5;
+}
+#today #tdBuy a img{
+	width: 100%;
+	height: 280px;
+	/*opacity: .9;*/
+}
+#today #tdBuy a button{
+	position: absolute;
+	top: 185px;
+	left: 50px;
+	width: 150px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	outline: none;
+	transition: background-color .3s; 
+	cursor: pointer;
+}
+#today #tdBuy a button:hover{
+	background-color: #1ABC9C;
+}
+#today #tdBuy a span{
+	width: 206px;
+	height: 60px;
+	font-size: 11px;
+	color: #777777;
+	position: absolute;
+	top: 75px;
+	left: 30px;
+}
+#dayLook{
+	background-color: #F2F2F2;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+#dayLook #dL{
+	height:40px ;
+	line-height: 40px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-size: 26px;
+	/*font-weight: bold;*/
+	text-align: center;
+}
+#dayLook #dLook{
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+#dayLook #dLook .dLookBox{
+	width: 100%;
+	height: 350px;
+	margin-bottom: 25px;
+	position: relative;
+	/*overflow: hidden;*/
+	background-color: white;
+}
+.dLookBox a{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	overflow: hidden;
+}
+.dLookBox a img{
+	width: 350px;
+	height: 350px;
+} 
+.dLookBox .saleTop{
+	display: block;
+	width: 120px;
+	height: 62px;
+	background: url(../img/index/dLookTop.png) no-repeat;
+	position: absolute;
+	top: 55px;
+	left: 55px;
+}
+.dLookBox .dLDetail{
+	width: 382px;
+	height: 343px;
+	padding: 0 40px;
+	background-color: white;
+	box-shadow: 0 1px 4px #c5c5c5;
+	position: absolute;
+	top: 18px;
+	right: 18px;
+}
+.dLookBox .dLDetail .dLD1{
+	width: 200px;
+	height: 30px;
+	background-color: #333333;
+	color: white;
+	margin: 0 auto;
+	margin-top: -10px;
+	text-align: center;
+}
+.dLDetail .dLD1 span{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: red;
+}
+.dLookBox .dLDetail p{
+	height: 142px;
+	margin-top: 36px;
+	color: #767676;
+	line-height: 24px;
+	font-size: 16px;
+	overflow: hidden;
+}
+.dLookBox .dLDetail .dLDPrice{
+	height: 45px;
+	margin-top: 30px;
+	position: relative;
+}
+.dLDetail .dLDPrice .addShopCar{
+	width: 106px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	float: right;
+	color: white;
+	background-color: black;
+	transition: background-color .3s; 
+}
+.dLDetail .dLDPrice .addShopCar:hover{
+	background-color: #1ABC9C;
+}
+.dLDetail .dLDPrice span{
+	display: inline-block;
+	float: left;
+}
+.dLDetail .dLDPrice .nPri{
+	font-size: 34px;
+}
+.dLDetail .dLDPrice .oPri{
+	color: #727272;
+	margin: 20px 0 0 5px;
+	text-decoration: line-through;
+}
+.dLDetail .hadBuy{
+	padding-top: 10px;
+	float: right;
+}
+.hadBuy i{
+	display: inline-block;
+	color: #b9966a;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.dLDOtherInfo img{
+	height: 45px;
+}
+.dLookBox .saleTop2{
+	background-position: 0 -144px;
+}
+.dLookBox .saleTop3{
+	background-position: 0 -72px;
+}
+
+#comeToTop{
+	width: 48px;
+	height: 48px;
+	position: fixed;
+	right: 10px;
+	bottom: 100px;
+	border: none;
+	background: url(../img/index/top.png) black no-repeat;
+	outline: none;
+	transition: all .5s ease 0s;
+}
+#comeToTop:hover{
+	background-color: #1abc9c;
+}
+#sideWeixinQR{
+	position: fixed;
+	top: 50px;
+	right: 0;
+	opacity: 0;
+}

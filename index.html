@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Feelunique | 美无止境</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/indexData.js" ></script>
+		<script type="text/javascript" src="js/header.js" ></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<header></header>
+		
+<!-------------------大图透明度轮播--------------------->
+		<div id="box">、
+			<div id="before"><</div>
+			<div id="next">></div>
+
+			<ul id="picbox">
+				<li class="bigPic"><a href="#"><img src="img/index/1.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="#"><img src="img/index/2.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="#"><img src="img/index/3.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="#"><img src="img/index/4.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="#"><img src="img/index/5.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="#"><img src="img/index/6.jpg" alt="" /></a></li>
+				<li class="bigPic"><a href="LabaFestival.html" target="_blank"><img src="img/index/7.jpg" alt="" /></a></li>
+
+			</ul>
+			<ul id="btnBox">
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+				<li class="picBtn"></li>
+			</ul>
+		</div>
+
+<!------------------品牌标志展示，完成点击按钮水平轮播（动态创建------------------>
+		<div id="logoDisplay" class="c">
+			<button class="lo logoBefore"></button>
+			<div id="logoViewBox">
+				<ul id="logoUl">
+					<li class="i"><a href="#"><img src="img/index/by_terry3.jpg" /></a></li>
+					<li class="i"><a href="#"><img src="img/index/niod4.jpg" /></a></li>
+				</ul>
+			</div>
+			<button class="lo logoNext"></button>
+		</div>
+
+<!------------------专区   推荐------------------>		
+		<div id="special" class="t">
+			<div id="SpecArea" class="c">
+				<ul id="area">
+					<li class="list">
+						<a href="#">
+							<img class="listImg" src="img/index/SpecialAreaL1.jpg" />
+						</a>
+						<span class="list01">甩码8折专区</span>
+						<span class="list02">【FULB20】</span>
+						<button>点击选购</button>
+					</li>
+					<li class="list">
+						<a href="#">
+							<img class="listImg" src="img/index/SpecialAreaL2.jpg" />
+						</a>
+						<span class="list01">精选品牌</span>
+						<span class="list02">2件75折</span>
+						<button>点击选购</button>
+					</li>
+					<li class="list">
+						<a href="#">
+							<img class="listImg" src="img/index/SpecialAreaL3.jpg" />
+						</a>
+						<span class="list01">精选品牌</span>
+						<span class="list02">买三免一专区</span>
+						<button>点击选购</button>
+					</li>
+					<li class="list">
+						<a href="#">
+						<img class="listImg" src="img/index/SpecialAreaL4.jpg" />	
+						</a>
+						<span class="list01">精选品牌</span>
+						<span class="list02">【FULB20】</span>
+						<button>点击选购</button>
+					</li>
+				</ul>	
+			</div>
+
+	<!------------------推荐分类导航条------------------>
+			<div id="recommend" class="c">
+				<ul class="rePart">
+					<li class="rp rp1"><a href="#">超值推荐</a></li>
+					<li class="rp"><a href="#">香港仓推荐</a></li>
+					<li class="rp"><a href="#">新品抢先购</a></li>
+					<li class="rp"><a href="#">圣诞礼盒</a></li>
+					<li class="rp"><a href="#">洁面王牌</a></li>
+					<li class="rp"><a href="#">送给他</a></li>
+					<li class="rp"><a href="#">送给她</a></li>
+				</ul>
+<!------------------动态创建多个推荐商品   实现水平轮播和按钮消失------------------>
+				<div id="reGoods" class="c">
+					
+					<div id="viewPort" class="c">
+						<ul id="displayBar">
+							<!------------------实现动态创建部分------------------>
+						</ul>
+						<span id="viewLeft"><img src="img/index/zuo.png" /> </span>
+						<span id="viewRight"><img src="img/index/you.png" /></span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div id="today" class="t">
+			<ul id="tdB">
+				<li>今日热门</li>
+				<li>今日热卖</li>
+			</ul>
+			<div id="tdBuy">
+				<a href="#">
+					<img src="img/index/tdBuy1.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy2.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy1.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy2.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy1.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy2.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy1.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+				<a href="#">
+					<img src="img/index/tdBuy2.jpg" />
+					<button>点击查看</button>
+					<span>Kérastase 卡诗 丰凝充盈洗发水，特别针对细软扁塌发质，可以增强现有发丝的质感和营造浓密效果，使得发丝蓬松凝亮，轮廓立体丰盈，增强秀发韧性，保持秀发活力。</span>
+				</a>
+			</div>
+		</div>
+			
+		<div id="dayLook" class="t">
+			<div id="dL" class="c">—— 每日必看  MUST CHECK OUT ——</div>
+			<div id="dLook" class="c">
+				<div class="dLookBox">
+					<a>
+						<img src="img/index/tdLook1.jpg" />
+					</a>	
+					<span class="saleTop"></span>
+					<div class="dLDetail">
+						<div class="dLD1">
+							<!--<span id="h">00</span>
+							<span>：</span>
+							<span id="m">00</span>
+							<span>：</span>
+							<span id="s">00</span>-->
+						</div>
+						<p>
+							<img src="img/index/dLookDet1.PNG"/>
+						</p>
+						<div class="dLDPrice">
+							<div class="addShopCar">加入购物车</div>
+							<span class="nPri">£29.40</span>
+							<span class="oPri">£42</span>
+						</div>
+						<div class="dLDOtherInfo">
+							<span>
+								<img src="img/index/by_terry3.jpg" />
+							</span>
+							<span class="hadBuy">
+								<i>52554</i>
+								人已购买
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="dLookBox">
+					<a>
+						<img src="img/index/tdLook2.jpg" />
+					</a>	
+					<span class="saleTop saleTop2"></span>
+					<div class="dLDetail">
+						<div class="dLD1">
+							
+						</div>
+						<p>
+							<img src="img/index/dLookDet1.PNG"/>
+						</p>
+						<div class="dLDPrice">
+							<div class="addShopCar">加入购物车</div>
+							<span class="nPri">£9.45</span>
+							<span class="oPri">£10.50</span>
+						</div>
+						<div class="dLDOtherInfo">
+							<span>
+								<img src="img/index/nyx2.jpg" />
+							</span>
+							<span class="hadBuy">
+								<i>52312</i>
+								人已购买
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="dLookBox">
+					<a>
+						<img src="img/index/tdLook3.png" />
+					</a>	
+					<span class="saleTop saleTop3"></span>
+					<div class="dLDetail">
+						<div class="dLD1">
+							
+						</div>
+						<p>
+							<img src="img/index/dLookDet1.PNG"/>
+						</p>
+						<div class="dLDPrice">
+							<div class="addShopCar">加入购物车</div>
+							<span class="nPri">£8.49</span>
+							<!--<span class="oPri">£10.50</span>-->
+						</div>
+						<div class="dLDOtherInfo">
+							<span>
+								<img src="img/index/bourjois.png" />
+							</span>
+							<span class="hadBuy">
+								<i>51502</i>
+								人已购买
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="dLookBox">
+					<a>
+						<img src="img/index/tdLook3.png" />
+					</a>
+					<div class="dLDetail">
+						<div class="dLD1">
+							
+						</div>
+						<p>
+							<img src="img/index/dLookDet1.PNG"/>
+						</p>
+						<div class="dLDPrice">
+							<div class="addShopCar">加入购物车</div>
+							<span class="nPri">£8.49</span>
+							<!--<span class="oPri">£10.50</span>-->
+						</div>
+						<div class="dLDOtherInfo">
+							<span>
+								<img src="img/index/bourjois.png" />
+							</span>
+							<span class="hadBuy">
+								<i>51502</i>
+								人已购买
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="dLookBox">
+					<a>
+						<img src="img/index/tdLook3.png" />
+					</a>
+					<div class="dLDetail">
+						<div class="dLD1">
+							
+						</div>
+						<p>
+							<img src="img/index/dLookDet1.PNG"/>
+						</p>
+						<div class="dLDPrice">
+							<div class="addShopCar">加入购物车</div>
+							<span class="nPri">£8.49</span>
+							<!--<span class="oPri">£10.50</span>-->
+						</div>
+						<div class="dLDOtherInfo">
+							<span>
+								<img src="img/index/bourjois.png" />
+							</span>
+							<span class="hadBuy">
+								<i>51502</i>
+								人已购买
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+<!------------------footer部分------------------>		
+		<footer></footer>
+
+<!------------------点击回到顶部按钮（固定------------------>
+		<input type="button" id="comeToTop">
+			<!--<img src="img/index/top.png" />-->
+		</input>
+
+<!------------------侧边微信二维码（下拉一定高度出现------------------>
+		<div id="sideWeixinQR"><img src="img/common-side-weixin.png" /></div>
+
+		<script>
+			//链入公共部分 头部  底部
+			$('header').load("commonHtml/header.html");
+			
+			$('footer').load("commonHtml/footer.html");
+			
+			
+			
+		</script>
+	</body>
+</html>
