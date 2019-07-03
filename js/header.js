@@ -5,16 +5,22 @@
 		var oTaxation = document.getElementsByClassName('taxation')[0];
 		oTaxation.onclick = function(){
 			var oFold = document.getElementsByClassName('fold')[0];
+			var oU = document.getElementsByClassName('upImg')[0];
+			var oD = document.getElementsByClassName('downImg')[0];
 			console.log(oFold.style.height);
 			if(oFold.style.height != '179px'){
 	//			console.log('1')
 				oFold.style.height = '179px';
 				oFold.style.transition = 'height .5s linear 0s';
+				oU.style.display = 'block';
+				oD.style.display = 'none';
 			}
 			else{
 	//			console.log('2')
 				oFold.style.height = '0px';
 				oFold.style.transition = 'height .5s linear 0s';
+				oU.style.display = 'none';
+				oD.style.display = 'block';
 			}
 		}
 	}

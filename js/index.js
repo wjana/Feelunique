@@ -87,14 +87,14 @@ window.onload = function(){
 
 $(function(){
 	//动态创建品牌标志
-	for(var i = 0;i<3;i++){
+//	for(var i = 0;i<3;i++){
 		$.each(logos,function(index,logo){
 			var str = `<li class="i"><a href="#"><img src="${logo.src}"/></a></li>`;
 //			console.log( str );
 			var oH1 = $(str);
 			$('#logoUl').append( oH1 );
 		})
-	}
+//	}
 	console.log($('.i'))
 	
 	
@@ -131,7 +131,7 @@ $(function(){
 
 $(function(){
 	//动态创建商品推荐
-	for(var i = 0;i<10;i++){
+	for(var i = 0;i<2;i++){
 		$.each(goods,function(index,data){
 //			console.log( data );
 			

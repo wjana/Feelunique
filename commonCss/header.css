@@ -11,10 +11,17 @@
 	float: left;
 }
 #headerStrip #s1{
-	width: 92%;
+	width: 90%;
 }
 #headerStrip #s2{
-	width: 8%;
+	width: 10%;
+}
+#s2 .upImg{
+	display: none;
+}
+#s2 img{
+	float: right;
+	margin: 9px 25px 9px 0;
 }
 #headerStrip .fold{
 	/*background-color: #FEF6F8;*/
@@ -325,6 +332,9 @@
 	height: 18px;
 	margin-bottom: 8px;
 	display: block;
+}
+.navMncontent .tt span{
+	height: 32px;
 }
 .navMncontent .gnType span a{
 	color: #777;
