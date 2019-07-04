@@ -68,6 +68,7 @@ footer a,footer{
 	height: 30px;
 	/*background: red;*/	
 	display: inline-block;
+	cursor: pointer;
 }
 #fcLeft .fWeixin{
 	background-image: url(../img/footer/weixin-Weibol.png);
@@ -113,6 +114,7 @@ footer a,footer{
 	background-image: url(../img/common-sprite-9.png);
 	background-position: 0 -903px;
 	margin-right: 10px;
+	cursor: pointer;
 }
 #footerCenter #fcRight #payMethod{
 	background: url(../img/footer/payMethod.png) no-repeat;
@@ -120,6 +122,7 @@ footer a,footer{
 	height: 26px;
 	float: right;
 	margin-top: 10px;
+	cursor: pointer;
 }
 #footerBottom{
 	background-color: #2d2d2d;

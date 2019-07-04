@@ -196,6 +196,7 @@
 	margin: 15px 90px;
 	transition: all .5s ease 0s;
 	border: none;
+	cursor: pointer;
 }
 #SpecArea .list button:hover{
 	background-color: #1abc9c;
@@ -357,6 +358,7 @@
 	font-size: 16px;
 	font-weight: bold;
 	border: none;
+	cursor: pointer;
 }
 #reGoods #displayBar .product:hover button{
 	display: block;
@@ -549,6 +551,7 @@
 	color: white;
 	background-color: black;
 	transition: background-color .3s; 
+	cursor: pointer;
 }
 .dLDetail .dLDPrice .addShopCar:hover{
 	background-color: #1ABC9C;
@@ -595,6 +598,7 @@
 	background: url(../img/index/top.png) black no-repeat;
 	outline: none;
 	transition: all .5s ease 0s;
+	cursor: pointer;
 }
 #comeToTop:hover{
 	background-color: #1abc9c;
